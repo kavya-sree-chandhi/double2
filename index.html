@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Denton Plant Factory</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f0f8ff; }
+    .header, .footer { background-color: #333; color: white; padding: 20px; text-align: center; }
+    .main { padding: 20px; }
+    .product { border: 1px solid #ddd; border-radius: 10px; padding: 15px; margin-bottom: 20px; background-color: #fff; }
+    .product img { width: 100%; height: auto; border-radius: 10px; }
+    .product-info { color: #555; }
+    .contact-form { background-color: #eee; padding: 20px; margin-top: 20px; }
+    .input-group { margin-bottom: 15px; }
+    .input-group label, .input-group input, .input-group button { display: block; width: 100%; }
+    .input-group input { padding: 10px; margin-top: 5px; }
+    .input-group button, .cart { background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border: none; cursor: pointer; border-radius: 5px; }
+    .input-group button:hover, .cart:hover { background-color: #0056b3; }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <a href="#" class="cart">Cart</a>
+    <h1>Denton Plant Factory</h1>
+    <button>About</button>
+</div>
+
+<div class="main">
+    <div class="product">
+        <img src="plant-image-url.jpg" alt="Plant Image">
+        <div class="product-info">
+            <h3>Plant Name</h3>
+            <p>Two lines description about the plant, its information, and origin.</p>
+        </div>
+    </div>
+</div>
+
+<div class="contact-form">
+    <form>
+        <div class="input-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="input-group">
+            <label for="contact">Contact Number</label>
+            <input type="tel" id="contact" name="contact" required>
+        </div>
+        <div class="input-group">
+            <label for="email">Email ID</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+<div class="footer">
+    <p>&copy; 2023 Denton Plant Factory</p>
+</div>
+
+</body>
+</html>
